@@ -1,0 +1,98 @@
+
+/* General */ 
+*{margin:0px;padding:0px;}
+
+/* Section 1 */ 
+.section1{min-height:60px;background:#002060;}
+.section1 .logo{height:60px;}
+
+/* Section 2 */ 
+.section2 .navbar-default{margin-bottom:0px;}
+.section2 .navLinkColor{color: #002060;padding: 10px;font-weight: bold;font-size:16px;}
+
+
+
+/* Section 3 */ 
+.section3{background:#002060;min-height:300px;position:relative;overflow:hidden;} 
+.section3 .messageBox{height:200px;width:400px;background:;position:absolute;top:50px;left:100px;z-index:2;animation-name:messageBox;animation-duration:6s;animation-iteration-count:infinite;
+transition-timing-function:step-end;}
+.section3 h3{color: white;padding: 10px;font-weight: bold;font-size:32px;}
+.section3 button{color: #fff!important;background-color: #c9001e;border-color: #c9001e;text-transform: uppercase;font-size: 15px!important;min-width: 220px;
+	padding: 16px 18px!important;}
+.section3 .laptops{position:absolute;top:50px;right:100px;height:250px;animation-name:laptop;animation-duration:6s;animation-iteration-count:infinite;
+transition-timing-function:step-end;}
+
+
+@keyframes laptop{
+	55%{right:100px;}
+	100%{right:110%;}
+}
+
+@keyframes messageBox{
+	55%{left:100px;}
+	100%{left:110%;}
+}
+
+/* Section 4 */ 
+.section4a{background:#f1f2f7;padding:20px;}
+.section4a h3{text-align:center;margin:0px;}
+.section4a h4{text-align:center;}
+.section4a .navs{padding:10px;text-align:center;}
+.section4a span{padding:10px;}
+.section4a span:nth-child(1){border-bottom:3px solid red;}
+.section4a .greenBox{background:;padding:5px;}
+.section4a .greenBox:nth-child(odd){left:-40px;}
+.section4a .greenBox:nth-child(even){left:40px;}
+.section4a .yellowBox{background:#fff;padding:20px;padding-left:50px;position:relative;box-shadow:0 2px 0 0 #CCCFDB;}
+.section4a .yellowBox h5{font-size:15px;font-weight:bold;}
+.section4a .imgBox{position:absolute;background:#496cc3;background-image:url("../assets/img/python.png");display:inline-block;width:70px;height:70px;top:15px;left:-40px;background-size:contain;padding:10px;background-origin:content-box;background-repeat:no-repeat;}
+
+.section4b{padding:20px;}
+.section4b h3{text-align:center;}
+.section4b h4{text-align:center;}
+.section4b img{height:150px;display:inline-block;width:25%;}
+.section4b .yellowBox{display:inline-block;width:74%;padding-left:35px;padding-right:35px;vertical-align:middle;}
+.section4b .greenBox:nth-of-type(2) .yellowBox{padding-left:0px;}
+.section4b h5{font-size:20px;font-weight:bold;} 
+
+.section4c {background:#f1f2f7;padding:20px;}
+.section4c h3{text-align:center;}
+.section4c h4{text-align:center;}
+.section4c .row{width:80%;margin:auto;}
+.section4c .yellowBox{background:#fff;padding:35px;margin-bottom:15px;box-shadow: 0 2px 0 0 #CCCFDB;}
+.section4c h5{font-size:18px;font-weight:bold;}
+.section4c p:nth-of-type(2){text-align:right;padding-right:25px;font-weight:bold;}
+.section4c i{font-size: 17px;position: relative;left: 5px;top: 2px;}
+
+.section4d{background-image:url("../assets/img/mac.png");background-size:cover;min-height:462px;padding:1px;text-align:center;vertical-align:middle;}
+.section4d h3{text-align:center;color:#fff;font-size:44px;margin-top:180px;}
+.section4d button{background:#ff4040;color: #fff!important;background-color: #c9001e;border-color: #c9001e;font-size: 15px;text-transform: uppercase;font-weight: 700;margin-top: 20px;padding: 18px 20px;width: 280px;}
+
+.section5{background:#000;color:#9a9a9a;padding:20px;}
+.section5 p{text-align:center;margin:0px;}
+
+/* Section 31 */ 
+.section31{background:#1A2637;min-height:300px;position:relative;overflow:hidden;align-items: center}
+
+.section41b {padding:20px;}
+.section41b h4{text-align:center;}
+.section41b img{height:150px;display:inline-block;width:25%;}
+.section41b .yellowBox{display:inline-block;width:74%;padding-left:35px;padding-right:35px;vertical-align:middle;}
+.section41b .greenBox:nth-of-type(2) .yellowBox{padding-left:0px;}
+.section41b h5{font-size:20px;font-weight:bold;} 
+
+/* Section 33 */ 
+.section33{background:#002060;min-height:300px;position:relative;overflow:hidden;} 
+.section33 .messageBox{height:200px;width:400px;background:;position:absolute;top:50px;left:100px;z-index:2;animation-name:messageBox;animation-duration:6s;animation-iteration-count:infinite;
+transition-timing-function:step-end;}
+.section33 h3{color: white;padding: 10px;font-weight: bold;font-size:32px;}
+.section33 h4{color: white;padding: 10px;font-weight: bold;font-size:28px;}
+.section33 p{color: white;padding: 10px;font-weight: bold;font-size:22px;}
+.section33 button{color: #fff!important;background-color: #c9001e;border-color: #c9001e;text-transform: uppercase;font-size: 15px!important;min-width: 220px;
+	padding: 16px 18px!important;}
+.section33 .laptops{position:absolute;top:50px;right:100px;height:250px;animation-name:laptop;animation-duration:6s;animation-iteration-count:infinite;
+transition-timing-function:step-end;}
+
+
+
+
