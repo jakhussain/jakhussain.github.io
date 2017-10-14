@@ -1,0 +1,29 @@
+
+/* General */ 
+*{margin:0px;padding:0px;}
+.row{margin-left:0px;margin-right:0px;}
+
+/* Section 1 */ 
+.section1{min-height:60px;background:/*#000*/#dfdfdf;}
+.section1 .logo{height:60px;}
+
+/* Section 2 */ 
+.section2 .navbar-default{margin-bottom:0px;}
+.section2 .navbar-default .navbar-nav li a {color:#002060;font-size:16px;font-weight:bold;}
+
+/* Section 3 */ 
+/* Nothing here */ 
+
+/* Section 4 */ 
+.section4 {padding:15px;}
+.section4 p{}
+.section4 .bannerImg{display:block;margin:auto;}
+.section4 h3{margin-top:10px;background:;color:#8A2BE2;padding:8px 10px;border-bottom:3px solid red;padding-left:0px;font-weight:bold;}
+.section4 ul {margin-left:30px;}
+.section4 .greenBox{border: 2px solid #7a7a7a;margin: 0px; padding: 10px;background: #fafafa;border-radius: 4px;}
+.section4 .personImage{max-width:175px;}
+.section4 table{border:2px solid #c9c9c9;}
+
+/* Section 5 */ 
+.section5{background:#000;color:#9a9a9a;padding:20px;}
+.section5 p{text-align:center;margin:0px;}

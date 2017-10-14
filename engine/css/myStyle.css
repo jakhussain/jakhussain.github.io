@@ -3,17 +3,15 @@
 *{margin:0px;padding:0px;}
 
 /* Section 1 */ 
-.section1{min-height:60px;background:#002060;}
+.section1{min-height:60px;background:/*#000*/#dfdfdf;}
 .section1 .logo{height:60px;}
 
 /* Section 2 */ 
 .section2 .navbar-default{margin-bottom:0px;}
-.section2 .navLinkColor{color: #002060;padding: 10px;font-weight: bold;font-size:16px;}
-
-
+.section2 .navbar-default .navbar-nav li a {color:#002060;font-size:16px;font-weight:bold;}
 
 /* Section 3 */ 
-.section3{background:#002060;min-height:300px;position:relative;overflow:hidden;} 
+.section3{background:/*#006DA5*/#002060;min-height:300px;position:relative;overflow:hidden;} 
 .section3 .messageBox{height:200px;width:400px;background:;position:absolute;top:50px;left:100px;z-index:2;animation-name:messageBox;animation-duration:6s;animation-iteration-count:infinite;
 transition-timing-function:step-end;}
 .section3 h3{color: white;padding: 10px;font-weight: bold;font-size:32px;}
@@ -21,7 +19,6 @@ transition-timing-function:step-end;}
 	padding: 16px 18px!important;}
 .section3 .laptops{position:absolute;top:50px;right:100px;height:250px;animation-name:laptop;animation-duration:6s;animation-iteration-count:infinite;
 transition-timing-function:step-end;}
-
 
 @keyframes laptop{
 	55%{right:100px;}
@@ -70,29 +67,3 @@ transition-timing-function:step-end;}
 
 .section5{background:#000;color:#9a9a9a;padding:20px;}
 .section5 p{text-align:center;margin:0px;}
-
-/* Section 31 */ 
-.section31{background:#1A2637;min-height:300px;position:relative;overflow:hidden;align-items: center}
-
-.section41b {padding:20px;}
-.section41b h4{text-align:center;}
-.section41b img{height:150px;display:inline-block;width:25%;}
-.section41b .yellowBox{display:inline-block;width:74%;padding-left:35px;padding-right:35px;vertical-align:middle;}
-.section41b .greenBox:nth-of-type(2) .yellowBox{padding-left:0px;}
-.section41b h5{font-size:20px;font-weight:bold;} 
-
-/* Section 33 */ 
-.section33{background:#002060;min-height:300px;position:relative;overflow:hidden;} 
-.section33 .messageBox{height:200px;width:400px;background:;position:absolute;top:50px;left:100px;z-index:2;animation-name:messageBox;animation-duration:6s;animation-iteration-count:infinite;
-transition-timing-function:step-end;}
-.section33 h3{color: white;padding: 10px;font-weight: bold;font-size:32px;}
-.section33 h4{color: white;padding: 10px;font-weight: bold;font-size:28px;}
-.section33 p{color: white;padding: 10px;font-weight: bold;font-size:22px;}
-.section33 button{color: #fff!important;background-color: #c9001e;border-color: #c9001e;text-transform: uppercase;font-size: 15px!important;min-width: 220px;
-	padding: 16px 18px!important;}
-.section33 .laptops{position:absolute;top:50px;right:100px;height:250px;animation-name:laptop;animation-duration:6s;animation-iteration-count:infinite;
-transition-timing-function:step-end;}
-
-
-
-
